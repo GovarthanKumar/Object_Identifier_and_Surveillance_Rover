@@ -13,9 +13,7 @@ This system can be used for:
 * Remote monitoring
 * Smart robotics applications
 * Educational AI & IoT projects
-
 ---
-
 ## Technologies Used
 
 ### Hardware
@@ -25,13 +23,12 @@ This system can be used for:
 * DC Motors
 * Rover Chassis
 * Power Supply / Battery Pack
-* FTDI Programmer
 
 ### Software
 
 * Python
 * OpenCV
-* Pretrained ML Model (COCO dataset / MobileNet SSD / YOLO)
+* Pretrained ML Model (COCO dataset)
 * Arduino IDE
 * ESP32 Camera Web Server
 
@@ -53,11 +50,11 @@ ESP32-CAM  →  WiFi Video Streaming  →  Computer
 
 ## 🔧 Features
 
-* 📷 Live video streaming from ESP32-CAM
-* 🤖 Real-time object detection using OpenCV
-* 📦 Uses pretrained ML models (no training required)
-* 🚗 Mobile rover platform for surveillance
-* 🌐 Wireless monitoring via WiFi
+* Live video streaming from ESP32-CAM
+* Real-time object detection using OpenCV
+* Uses pretrained ML models (no training required)
+* Mobile rover platform for surveillance
+* Wireless monitoring via WiFi
 
 ---
 Example detected objects:
@@ -76,5 +73,3 @@ Example detected objects:
 * Smart agriculture monitoring
 * Autonomous inspection robot
 
-
-Just tell me.
