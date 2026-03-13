@@ -1,7 +1,7 @@
 
-# 🚗 Object Identifier and Surveillance Rover using ESP32-CAM & OpenCV
+# Object Identifier and Surveillance Rover using ESP32-CAM & OpenCV
 
-## 📌 Project Overview
+## Project Overview
 
 This project implements a **surveillance rover capable of detecting and identifying objects in real-time** using the **ESP32-CAM module and OpenCV with a pretrained Machine Learning model**.
 
@@ -16,7 +16,7 @@ This system can be used for:
 
 ---
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 ### Hardware
 
@@ -60,72 +60,6 @@ ESP32-CAM  →  WiFi Video Streaming  →  Computer
 * 🌐 Wireless monitoring via WiFi
 
 ---
-
-## 📁 Project Structure
-
-```
-Object-Identifier-Rover
-│
-├── esp32_cam_code
-│   └── esp32_camera_stream.ino
-│
-├── object_detection
-│   └── detect_objects.py
-│
-├── models
-│   ├── MobileNetSSD_deploy.prototxt
-│   └── MobileNetSSD_deploy.caffemodel
-│
-├── images
-│   └── project_setup.png
-│
-└── README.md
-```
-
----
-
-## 🚀 Installation
-
-### 1️⃣ Clone Repository
-
-```bash
-git clone https://github.com/yourusername/object-identifier-rover.git
-cd object-identifier-rover
-```
-
----
-
-### 2️⃣ Install Python Dependencies
-
-```bash
-pip install opencv-python numpy imutils
-```
-
----
-
-### 3️⃣ Upload ESP32-CAM Code
-
-1. Open **Arduino IDE**
-2. Select **ESP32-CAM board**
-3. Upload the camera streaming code
-4. Connect ESP32-CAM to WiFi
-
----
-
-### 4️⃣ Run Object Detection
-
-```bash
-python detect_objects.py
-```
-
----
-
-## 🖥 Example Output
-
-* Bounding boxes around detected objects
-* Object name displayed
-* Real-time frame processing
-
 Example detected objects:
 
 * Person
@@ -135,41 +69,12 @@ Example detected objects:
 
 ---
 
-## 📊 Applications
+## Applications
 
 * Home security robot
 * Military surveillance rover
 * Smart agriculture monitoring
 * Autonomous inspection robot
 
----
-
-## 🔮 Future Improvements
-
-* Add **autonomous navigation**
-* Integrate **GPS tracking**
-* Deploy **custom trained ML models**
-* Add **mobile app control**
-
----
-
-## 👨‍💻 Author
-
-**Govarthan K**
-
----
-
-## 📜 License
-
-This project is open-source and available under the **MIT License**.
-
----
-
-If you want, I can also give you:
-
-* ⭐ **Better GitHub README with badges and screenshots**
-* 📊 **System architecture diagram**
-* 🔧 **Complete OpenCV Python code**
-* 🚗 **ESP32-CAM rover control code**
 
 Just tell me.
